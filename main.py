@@ -28,7 +28,7 @@ class Query(BaseModel):
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://socials-ai.interactivedigital.com.gh/"],  # your React dev server
+    allow_origins=["*"],  # your React dev server
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
